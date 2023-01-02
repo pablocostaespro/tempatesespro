@@ -1,0 +1,100 @@
+/* line 2, ../../../sass/generated/recursos/timeline.scss */
+.timeline-responsive div {
+  margin: 25px auto;
+  width: 80%;
+}
+
+/* line 7, ../../../sass/generated/recursos/timeline.scss */
+.timeline-responsive ul {
+  list-style: none;
+  margin: 60px auto;
+  width: 650px;
+  background: url(../../imgs/linha_fundo.jpg);
+  background-repeat: no-repeat;
+  height: 129px;
+}
+
+/* line 16, ../../../sass/generated/recursos/timeline.scss */
+.tab-timeline-disabled {
+  display: none;
+}
+
+/* line 20, ../../../sass/generated/recursos/timeline.scss */
+.tab-timeline-active {
+  display: block;
+}
+
+/* line 24, ../../../sass/generated/recursos/timeline.scss */
+.timeline-responsive ul:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* line 29, ../../../sass/generated/recursos/timeline.scss */
+.group-timeline {
+  display: none;
+}
+
+/* line 32, ../../../sass/generated/recursos/timeline.scss */
+.timeline-responsive ul li {
+  width: 94px;
+  float: left;
+  font-size: 53px;
+  text-align: center;
+  background-image: url(../../imgs/bola_cinza.png);
+  cursor: pointer;
+  height: 85px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 13px 0 0 4px;
+}
+
+/* line 46, ../../../sass/generated/recursos/timeline.scss */
+#arrow-left-timeline, #arrow-right-timeline {
+  position: absolute;
+  width: 36px;
+  cursor: pointer;
+}
+
+/* line 52, ../../../sass/generated/recursos/timeline.scss */
+#arrow-left-timeline {
+  margin: 40px 0 0 -130px;
+  display: none;
+}
+
+/* line 57, ../../../sass/generated/recursos/timeline.scss */
+#arrow-right-timeline {
+  margin: 40px 0 0 650px;
+}
+
+/* line 61, ../../../sass/generated/recursos/timeline.scss */
+.tab-timeline-selected {
+  background-image: url(../imgs/bola_laranja.png) !important;
+}
+
+/* line 65, ../../../sass/generated/recursos/timeline.scss */
+.timeline-responsive .image-timeline-left {
+  width: 40%;
+  float: left;
+  margin: 7px 20px 0 0;
+}
+
+/* line 71, ../../../sass/generated/recursos/timeline.scss */
+.timeline-responsive .image-timeline-right {
+  width: 40%;
+  float: right;
+  margin: 7px 0 0 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* line 78, ../../../sass/generated/recursos/timeline.scss */
+  .timeline-responsive ul {
+    display: none;
+  }
+
+  /* line 81, ../../../sass/generated/recursos/timeline.scss */
+  .timeline-responsive div {
+    display: block;
+  }
+}
