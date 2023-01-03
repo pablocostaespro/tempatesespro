@@ -11,7 +11,3 @@ body h1, body h2, html h1, html h2 {
 body h1::before, body h2::before, html h1::before, html h2::before {
   display: none;
 }
-
-.section:nth-child(4n+1)::before, .section:nth-child(4n+1)::after {
-  display: none;
-}
