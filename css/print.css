@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;700&display=swap');
+
 html {
   word-break: break-word;
   font-family: 'Arial', sans-serif;
@@ -16,7 +18,7 @@ body {
   width: 90% !important;
   height: 100% !important;
   margin: auto;
-  font-family: 'Arial', sans-serif;
+  font-family: 'Figtree', sans-serif !important; 
   text-rendering: geometricPrecision;
   font-weight: normal;
   font-style: normal;
