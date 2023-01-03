@@ -3,3 +3,15 @@
 body {
   font-family: 'Figtree', sans-serif !important; 
 }
+
+body h1, body h2, html h1, html h2 {
+  font-weight: 700;
+}
+
+body h1::before, body h2::before, html h1::before, html h2::before {
+  display: none;
+}
+
+
+
+
