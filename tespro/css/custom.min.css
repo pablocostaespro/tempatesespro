@@ -804,7 +804,7 @@ header .intro {
 }
 header .intro .overlay {
   background: rgba(0, 0, 0, 0.2);
-  height: calc(76vh - 53px);
+  height: calc(52vh - 53px);
   display: flex;
 }
 header .intro .container {
